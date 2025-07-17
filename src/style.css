@@ -1,4 +1,5 @@
 :root {
+  display:flex;
   --verde: #7BA98B;
   --vinho: #6C354F;
   --laranja: #F1865A;
