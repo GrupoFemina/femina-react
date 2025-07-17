@@ -1,5 +1,6 @@
 :root {
   display:flex;
+   margin-left:50px;
   --verde: #7BA98B;
   --vinho: #6C354F;
   --laranja: #F1865A;
@@ -10,7 +11,7 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  margin-left:50px;
+ 
 
   font-family: 'Inter', sans-serif;
   background-color: #fff;
