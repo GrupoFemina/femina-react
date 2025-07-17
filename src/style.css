@@ -49,15 +49,17 @@ header p { font-size: 16px; opacity: 0.85; }
   padding-bottom: 6px;
 }
 .card {
-  background-color: var(--fundo-card);
-  border-left: 5px solid var(--vinho);
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  text-align: left;
+    background-color: var(--fundo-card);
+    border-left: 3px solid var(--vinho);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease;
+    text-align: left;
+    font-size: 10px;
+    font-family: corbel;
 }
 .card:hover {
   transform: scale(1.03);
@@ -119,8 +121,7 @@ footer p {
 @media (min-width: 769px) {
   .board {
     flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    
   }
   .list {
     flex-shrink: 0;
