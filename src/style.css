@@ -16,6 +16,7 @@ body {
   color: #333;
 }
 header {
+  width:100%;
   background: linear-gradient(to right, var(--verde), var(--vinho), var(--laranja), var(--bordo));
   padding: 40px 20px 30px;
   text-align: center;
