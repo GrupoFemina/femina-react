@@ -10,7 +10,7 @@ export default function App() {
       </header>
       <Board />
       <footer>
-        <img alt="Logo Femina" src="/logo-png.png" style={{ height: 80, objectFit: 'contain' }} />
+        <img alt="Logo Femina" src="https://ibb.co/YBHMB5Ps" style={{ height: 80, objectFit: 'contain' }} />
         <p>© 2025 Grupo Femina | <a href="#">Política de Privacidade</a></p>
       </footer>
     </>
