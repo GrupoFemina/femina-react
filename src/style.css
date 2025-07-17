@@ -122,6 +122,8 @@ footer p {
   .board {
     display:block;
     flex-wrap: nowrap;
+    width:100%;
+  
     
   }
   .list {
