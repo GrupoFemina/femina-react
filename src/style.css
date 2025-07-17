@@ -121,7 +121,7 @@ footer p {
 @media (min-width: 769px) {
   .board {
     display:block;
-    flex-wrap: nowrap;
+    
     width:100%;
   
     
