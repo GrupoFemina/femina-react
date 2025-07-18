@@ -90,6 +90,7 @@ header p { font-size: 16px; opacity: 0.85; }
   max-height: 80vh;
   overflow: auto;
   position: relative;
+  padding:25px;
 }
 #modal-content {
   white-space: pre-wrap;
