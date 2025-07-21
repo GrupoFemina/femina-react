@@ -53,7 +53,7 @@ const data = {
       idList: "estoque_coluna_001"
      },
      {
-      name: "CANCELAMENTO POR PRAZO EXCEDIDO 48 HRS",
+      name: "CANCELAMENTO PRAZO EXCEDIDO 48 HRS",
       desc: "Pedido cancelado por tempo limite excedido.",
       idList: "estoque_coluna_001"
     },
