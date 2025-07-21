@@ -93,6 +93,11 @@ const data = {
       idList: "683616ef6cc0c8d06e9b1dcc"       
     },
     {
+      name: "PIX - RIO DO SUL",
+      desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
+      idList: "683616ef6cc0c8d06e9b1dcc"       
+    },
+    {
       name: "ATENDIMENTO - RE ATIVO",
       desc: "<strong>CÓD RE + NOME:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>PROMOTORA:</strong> @marcar Alocação na Rede",
       idList: "683615767be3d4dd7675250f"
