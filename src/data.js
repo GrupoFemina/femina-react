@@ -59,7 +59,7 @@ const data = {
     },
     {
       name: "TRANSFERÊNCIA DE VD - DOCUMENTAÇÃO NECESSÁRIA",
-      desc: "Foto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome, (caso não tenha, enviar foto do documento do titular junto com o comprovante).\n\nCarta a próprio punho informando que está residindo no endereço atual.\n\n<strong>ENVIAR A DOCUMENTAÇÃO PARA O E-MAIL:</strong><br>Se você for de Joinville: admjoinville@grupofemina.com.br<br>Se for de Florianópolis: admflorianopolis@grupofemina.com.br<br>Ou se for de Rio do Sul: admriodosul@grupofemina.com.br",
+      desc: "Foto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome, (caso não tenha, enviar foto do documento do titular junto com o comprovante).\n\nCarta a próprio punho informando que está residindo no endereço atual.\n\n<strong>ENVIAR A DOCUMENTAÇÃO PARA O E-MAIL:</strong><br><strong>Se você for de Joinville:<strong> admjoinville@grupofemina.com.br<br><strong>Se for de Florianópolis:<strong> admflorianopolis@grupofemina.com.br<br><strong>Ou se for de Rio do Sul:<strong> admriodosul@grupofemina.com.br",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
