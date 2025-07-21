@@ -51,6 +51,11 @@ const data = {
       name: "CARTA DE CORREÇÃO",
       desc: "Solicito Carta de Correção de Endereço para o pedido, conforme os dados:\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong> (Descrever o motivo com clareza)\n<em>Exemplo: O RE informou um endereço incorreto e solicitou a alteração para o endereço do trabalho.</em>\n\n*Print da conversa com o RE solicitando a alteração;\n*Comprovante do endereço atualizado;\n*Print da alteração do endereço no sistema GERA",
       idList: "estoque_coluna_001"
+     },
+     {
+      name: "CANCELAMENTO POR PRAZO EXCEDIDO 48 HRS",
+      desc: "Pedido cancelado por tempo limite excedido.",
+      idList: "estoque_coluna_001"
     },
     {
       name: "TRANSFERÊNCIA DE VD - DOCUMENTAÇÃO NECESSÁRIA",
