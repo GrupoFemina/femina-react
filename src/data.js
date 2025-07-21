@@ -39,7 +39,7 @@ const data = {
     },
     {
       name: "OCORRÊNCIA DE PRODUTO",
-      desc: "<strong>CÓD. PRODUTO1:</strong>\n<strong>CÓD. PRODUTO2:</strong>\n<strong>CÓD. PRODUTO3:</strong>",
+      desc: "<strong>CÓD. PRODUTO1:CÓD + NOME DO PRODUTO</strong>\n<strong>CÓD. PRODUTO2:</strong>\n<strong>CÓD. PRODUTO3:</strong>",
       idList: "estoque_coluna_001"
     },
     {
