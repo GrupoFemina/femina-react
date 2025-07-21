@@ -101,7 +101,7 @@ ALQUIMIA COMÉRCIO E REPRESENTAÇÕES LTDA<br><br>
 39.265.009/0001-60
       `,
       idList: "683616ef6cc0c8d06e9b1dcc"
-    }
+    },
     {
       name: "ATENDIMENTO - RE ATIVO",
       desc: "<strong>CÓD RE + NOME:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>PROMOTORA:</strong> @marcar Alocação na Rede",
