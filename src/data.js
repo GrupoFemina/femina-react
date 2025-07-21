@@ -34,7 +34,7 @@ const data = {
     },
     {
       name: "PEDIDO COM RETIRADA AGENDADA",
-      desc: "<strong>Nº PEDIDO:</strong> [XXX]\n<strong>CÓD. REV.:</strong> [CÓD + NOME RE]\n<strong>DATA RETIRAR:</strong> [pedido + 2 dias úteis]",
+      desc: "<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>CÓD. REV.:</strong> CÓD + NOME RE\n<strong>DATA RETIRAR:</strong> DATA DO PEDIDO + 2 DIAS ÚTEIS",
       idList: "estoque_coluna_001"
     },
     {
