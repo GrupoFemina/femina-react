@@ -89,17 +89,7 @@ const data = {
     },
     {
       name: "PIX - FLORIANÓPOLIS",
-      desc: `
-<strong>RAZÃO SOCIAL:</strong><br>
-ALQUIMIA COMÉRCIO E REPRESENTAÇÕES LTDA<br><br>
-
-<strong>BANCO:</strong> Bradesco (237)<br>
-<strong>AGÊNCIA:</strong> 2657<br>
-<strong>CONTA CORRENTE:</strong> 1605-5<br><br>
-
-<strong>CHAVE PIX:</strong><br>
-39.265.009/0001-60
-      `,
+      desc: `<strong>RAZÃO SOCIAL:</strong><br>ALQUIMIA COMÉRCIO E REPRESENTAÇÕES LTDA<br><br>\n<strong>BANCO:</strong> Bradesco (237)<br><strong>AGÊNCIA:</strong> 2657<br><strong>CONTA CORRENTE:</strong> 1605-5<br><br>\n<strong>CHAVE PIX:</strong><br>39.265.009/0001-60",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
