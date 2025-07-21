@@ -9,7 +9,7 @@ const data = {
   cards: [
     {
       name: "CADASTRO NOVO",
-      desc: "<strong>Ativação:</strong> Via pedido.\n<strong>Pagamento:</strong> Boleto 3x.\n<strong>Entrega:</strong> endereço do RE.",
+      desc: "<strong>ATIVAÇÃO:</strong> Via pedido.\n<strong>PAGAMENTO:</strong> Boleto 3x.\n<strong>ENTREGA:</strong> endereço do RE.",
       idList: "683615767be3d4dd7675250e"
     },
     {
