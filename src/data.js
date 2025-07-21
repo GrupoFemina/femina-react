@@ -124,35 +124,7 @@ const data = {
     },
     {
       name: "ENDEREÇO E HORÁRIO - VD's",
-      desc: `
-<strong>ESPAÇO DO REVENDEDOR - RIO DO SUL/SC</strong><br>
-Rodovia BR-470 - do km 140,002 ao km 141,000 - lado par Nº 5350<br>
-CEP: 89162-875 - Bairro: Valada Itoupava<br>
-<strong>SEGUNDA A SEXTA:</strong> 07:42 às 17:00h<br>
-📞 (47) 3525-3932 / (47) 3521-6852<br><br>
-
-<strong>ESPAÇO DO REVENDEDOR - ESTREITO/SC</strong><br>
-Rua Santiago Dantas, Nº 100 - Bairro: Estreito<br>
-Florianópolis / SC<br>
-<strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br>
-<strong>SÁBADO:</strong> 08:30 às 11:30h<br>
-📞 (48) 3039-0976<br>
-📸 @boticario.vd.florianópolis<br><br>
-
-<strong>ESPAÇO DO REVENDEDOR - PALHOÇA/SC</strong><br>
-Prefeito Reinoldo Alves, 41 - Shopping Camelão<br>
-<strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br>
-<strong>SÁBADO:</strong> 08:30 às 11:30h<br>
-📞 (48) 3058-5573<br>
-📸 @boticario.vd.florianópolis<br><br>
-
-<strong>ESPAÇO DO REVENDEDOR - JOAÇABA/SC</strong><br>
-Nº 215 - Bairro: Saguaçu - Joinville/SC<br>
-<strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br>
-<strong>SÁBADOS:</strong> 09:00 às 12:00h<br>
-📞 (47) 3439-4219<br>
-📸 @boticario.joinville
-      `,
+      desc: "<strong>ESPAÇO DO REVENDEDOR - RIO DO SUL/SC</strong><br>Rodovia BR-470 - do km 140,002 ao km 141,000 - lado par Nº 5350<br>CEP: 89162-875 - Bairro: Valada Itoupava<br><strong>SEGUNDA A SEXTA:</strong> 07:42 às 17:00h<br>📞 (47) 3525-3932 / (47) 3521-6852<br><br><br><strong>ESPAÇO DO REVENDEDOR - ESTREITO/SC</strong><br>Rua Santiago Dantas, Nº 100 - Bairro: Estreito<br>Florianópolis / SC<br><strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br><strong>SÁBADO:</strong> 08:30 às 11:30h<br>📞 (48) 3039-0976<br>📸 @boticario.vd.florianópolis<br><br><br><strong>ESPAÇO DO REVENDEDOR - PALHOÇA/SC</strong><br>Prefeito Reinoldo Alves, 41 - Shopping Camelão<br><strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br><strong>SÁBADO:</strong> 08:30 às 11:30h<br>📞 (48) 3058-5573<br>📸 @boticario.vd.florianópolis<br><br><br><strong>ESPAÇO DO REVENDEDOR - JOAÇABA/SC</strong><br>Nº 215 - Bairro: Saguaçu - Joinville/SC<br><strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br><strong>SÁBADOS:</strong> 09:00 às 12:00h<br>📞 (47) 3439-4219<br>📸 @boticario.joinville",
       idList: "683615767be3d4dd7675250d"
     }
   ]
