@@ -143,7 +143,7 @@ const data = {
       📸 @boticario.joinville
       `,
       idList: "683615767be3d4dd7675250d"
-      }    }
+      }   
   ]
 };
 export default data;
