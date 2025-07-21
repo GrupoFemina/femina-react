@@ -136,7 +136,7 @@ Prefeito Reinoldo Alves, 41 - Shopping Camelão<br>
 📞 (48) 3058-5573<br>
 📸 @boticario.vd.florianópolis<br><br>
 
-<strong>JOAÇABA</strong><br>
+<strong>ESPAÇO DO REVENDEDOR - JOAÇABA/JOINVILLE</strong><br>
 Nº 215 - Bairro: Saguaçu - Joinville/SC<br>
 <strong>SEGUNDA A SEXTA:</strong> 09:00 às 19:00h<br>
 <strong>SÁBADOS:</strong> 09:00 às 12:00h<br>
