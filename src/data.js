@@ -82,15 +82,10 @@ const data = {
       desc: "<strong>CP:</strong> [ 20573 - 24125 - 23341 ]<br><strong>FORMA DE PAGAMENTO:</strong> PIX ou CARTÃO DE CRÉDITO 3X<br><strong>IR:</strong> [ CÓD + NOME ]<br><strong>PEDIDO:</strong> XXX.XXX.XXX<br><strong>VALOR:</strong> R$<br><strong>ENTREGA OU RETIRADA:</strong>",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
-     {
-      name: "ENDEREÇO E HORÁRIO - VD's",
-      desc: `...`, // conteúdo do botão anterior
-      idList: "683615767be3d4dd7675250d"
-    },
     {
       name: "PIX - FLORIANÓPOLIS",
-      desc: `<strong>RAZÃO SOCIAL:</strong><br>ALQUIMIA COMÉRCIO E REPRESENTAÇÕES LTDA<br><br>\n<strong>BANCO:</strong> Bradesco (237)<br><strong>AGÊNCIA:</strong> 2657<br><strong>CONTA CORRENTE:</strong> 1605-5<br><br>\n<strong>CHAVE PIX:</strong><br>39.265.009/0001-60",
-      idList: "683616ef6cc0c8d06e9b1dcc"
+      desc: "<strong>RAZÃO SOCIAL:</strong><br>ALQUIMIA COMÉRCIO E REPRESENTAÇÕES LTDA<br><br>\n<strong>BANCO:</strong> Bradesco (237)<br><strong>AGÊNCIA:</strong> 2657<br><strong>CONTA CORRENTE:</strong> 1605-5<br><br>\n<strong>CHAVE PIX:</strong><br>39.265.009/0001-60",
+      idList: "683616ef6cc0c8d06e9b1dcc"      
     },
     {
       name: "ATENDIMENTO - RE ATIVO",
