@@ -73,11 +73,6 @@ const data = {
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
-      name: "CAR - ATENDIMENTO",
-      desc: "<strong>Central de Atendimento ao Revendedor</strong><br>Atendimento de segunda a sexta, das 8h às 20h.<br>Sábado, das 9h às 16h.<br><br><strong>Whatsapp:</strong> (41) 8735-7095<br><strong>Telefone:</strong> 0800-729-9050<br><em>Ligação gratuita de qualquer lugar do país tanto de telefone fixo quanto de celular.</em>",
-      idList: "683616ef6cc0c8d06e9b1dcc"
-    },
-    {
       name: "PEDIDO À VISTA - C.I",
       desc: "<strong>CP:</strong> [ 20573 - 24125 - 23341 ]<br><strong>FORMA DE PAGAMENTO:</strong> PIX ou CARTÃO DE CRÉDITO 3X<br><strong>IR:</strong> [ CÓD + NOME ]<br><strong>PEDIDO:</strong> XXX.XXX.XXX<br><strong>VALOR:</strong> R$<br><strong>ENTREGA OU RETIRADA:</strong>",
       idList: "683616ef6cc0c8d06e9b1dcc"
@@ -110,6 +105,11 @@ const data = {
     {
       name: "ATENDIMENTO - REATIVAÇÃO",
       desc: "<strong>CÓD RE + NOME:</strong>\n<strong>CPF:</strong>\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
+      idList: "683615767be3d4dd7675250f"
+    },
+    {
+      name: "CAR - ATENDIMENTO",
+      desc: "<strong>Central de Atendimento ao Revendedor</strong><br>Atendimento de segunda a sexta, das 8h às 20h.<br>Sábado, das 9h às 16h.<br><br><strong>Whatsapp:</strong> (41) 8735-7095<br><strong>Telefone:</strong> 0800-729-9050<br><em>Ligação gratuita de qualquer lugar do país tanto de telefone fixo quanto de celular.</em>",
       idList: "683615767be3d4dd7675250f"
     },
     {
