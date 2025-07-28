@@ -94,8 +94,9 @@ const data = {
     },
     {
       name: "ATENDIMENTO - RE ATIVO",
-      desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:<strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:<strong> Descrever a necessidade do RE.\n<strong>STATUS:\n<strong>PROMOTORA: @atendimento",
+      desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>STATUS:</strong>\n<strong>PROMOTORA:</strong> @atendimento",
       idList: "683615767be3d4dd7675250f"
+
     },
     {
       name: "CADASTRO REVENDEDOR - IR (INTENÇÃO DE REVENDA)",
