@@ -94,7 +94,7 @@ const data = {
     },
     {
       name: "ATENDIMENTO - RE ATIVO",
-      desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO<strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>STATUS:\n<strong>PROMOTORA:</strong> @marcar Alocação na Rede",
+      desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:<strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:Descrever a necessidade do RE.\n<strong>STATUS:\n<strong>PROMOTORA:</strong> @marcar Alocação na Rede",
       idList: "683615767be3d4dd7675250f"
     },
     {
