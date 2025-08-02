@@ -49,7 +49,7 @@ const data = {
     },
     {
       name: "CARTA DE CORREÇÃO - ENDEREÇO",
-      desc: "Solicito Carta de Correção de Endereço para o pedido, conforme os dados:\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>CEP:</strong>\n<strong>ENDEREÇO::</strong>\n<strong>BAIRRO:</strong>\n\n<strong>MOTIVO:</strong> (Descrever o motivo com clareza)\n<em>Exemplo: O RE informou um endereço incorreto e solicitou a alteração para o endereço do trabalho.</em>",
+      desc: "Solicito Carta de Correção de Endereço para o pedido, conforme os dados:\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>CEP:</strong>\n<strong>ENDEREÇO:</strong>\n<strong>BAIRRO:</strong>\n<strong>CIDADE:</strong>\n\n<strong>MOTIVO:</strong> (Descrever o motivo com clareza)\n<em>Exemplo: O RE informou um endereço incorreto e solicitou a alteração para o endereço do trabalho.</em>",
       idList: "estoque_coluna_001"
      },
      {
