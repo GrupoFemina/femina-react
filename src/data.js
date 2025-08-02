@@ -49,7 +49,7 @@ const data = {
     },
     {
       name: "CARTA DE CORREÇÃO - ENDEREÇO",
-      desc: "Solicito Carta de Correção de Endereço para o pedido, conforme os dados:\nCÓD/NOME:\nN° DO PEDIDO:\nMOTIVO: (Descrever o motivo com clareza)\n*EXEMPLO: O RE informou um endereço incorreto e solicitou a alteração para o endereço do trabalho.*\nCEP:\nENDEREÇO:\nBAIRRO:\nCIDADE:\n\n*Print da conversa com o RE solicitando a alteração;\n*Comprovante do endereço atualizado;\n*Print da alteração do endereço no sistema GERA",
+      desc: "Solicito Carta de Correção de Endereço para o pedido, conforme os dados:\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong> (Descrever o motivo com clareza)\n<em>EXEMPLO: O RE informou um endereço incorreto e solicitou a alteração para o endereço do trabalho.</em>\n<strong>CEP:</strong>\n<strong>ENDEREÇO:</strong>\n<strong>BAIRRO:</strong>\n<strong>CIDADE:</strong>\n\n*Print da conversa com o RE solicitando a alteração;\n*Comprovante do endereço atualizado;\n*Print da alteração do endereço no sistema GERA",
       idList: "estoque_coluna_001"
     }
      {
