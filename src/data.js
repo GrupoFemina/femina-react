@@ -44,7 +44,7 @@ const data = {
     },
     {
       name: "CANCELAMENTO DE PEDIDO",
-      desc: "<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong>\n<strong>ANEXAR OS PRINTS DA SOLICITAÇÃO:</strong> (conversa com RE, entre outros)\n\n@‌mencionar gerente adm @‌marcar gerente loja @‌mencionar gerente estoque",
+      desc: "<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong>\n\n@‌marcar responsavel estoque @‌marcar gerente estoque",
       idList: "estoque_coluna_001"
     },
     {
