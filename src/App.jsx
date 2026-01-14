@@ -1,18 +1,72 @@
-import React from 'react'
-import Board from './components/Board'
+import React, { useState } from 'react';
+import data from './data'; // Certifique-se que o data.js está na mesma pasta
+import './App.css';
 
-export default function App() {
+const App = () => {
+  const [setorAberto, setSetorAberto] = useState(null);
+  const [cardAtivo, setCardAtivo] = useState(null);
+
+  const toggleSetor = (id) => {
+    setSetorAberto(setorAberto === id ? null : id);
+  };
+
   return (
-    <>
-      <header>
+    <div className="container-geral">
+      <header className="header-atendimento">
         <h1>ATENDIMENTO PADRÃO</h1>
         <p>Organização e excelência no atendimento da rede Femina</p>
       </header>
-      <Board />
-      <footer>
-        <img alt="Logo Femina" src="https://i.ibb.co/CKRZKjmG/NOVA-LOGO-Grupo-Femina-Preta.png" style={{ height: 80, objectFit: 'contain' }} />
-        <p>© 2025 Grupo Femina | <a href="#">Política de Privacidade</a></p>
-      </footer>
-    </>
-  )
-}
+
+      <div className="container-setores">
+        {Object.entries(data.lists).map(([id, nome]) => (
+          <div key={id} className="wrapper-setor">
+            {/* Botão Principal 3D */}
+            <button 
+              className={`btn-setor-3d ${setorAberto === id ? 'ativo' : ''}`}
+              onClick={() => toggleSetor(id)}
+            >
+              {nome}
+            </button>
+
+            {/* Lista de Opções (Família) */}
+            {setorAberto === id && (
+              <div className="lista-opcoes-aberta">
+                {data.cards
+                  .filter(card => card.idList === id)
+                  .map((card, index) => (
+                    <div 
+                      key={index} 
+                      className="item-clicavel"
+                      onClick={() => setCardAtivo(card)}
+                    >
+                      {card.name}
+                    </div>
+                  ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* O Novo Quadro de Texto (Modal) conforme o croqui */}
+      {cardAtivo && (
+        <>
+          <div className="modal-overlay" onClick={() => setCardAtivo(null)} />
+          <div className="quadro-exibicao">
+            <div className="quadro-header">
+              <h3>{cardAtivo.name}</h3>
+              <button className="btn-fechar-topo" onClick={() => setCardAtivo(null)}>&times;</button>
+            </div>
+            <div 
+              className="quadro-conteudo"
+              dangerouslySetInnerHTML={{ __html: cardAtivo.desc.replace(/\n/g, '<br>') }}
+            />
+            <button className="btn-voltar" onClick={() => setCardAtivo(null)}>VOLTAR</button>
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
+export default App;
