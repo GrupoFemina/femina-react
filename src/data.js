@@ -90,7 +90,48 @@ const data = {
     {
       name: "PIX - RIO DO SUL",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
-      idList: "683616ef6cc0c8d06e9b1dcc"       
+      idList: "683616ef6cc0c8d06e9b1dcc"  
+     },   
+     {
+      name: "CIDADES - RIO DO SUL",
+      desc: "<table style="width:100%; border-collapse: collapse; text-align:left; font-size:14px;">
+  <tr style="background-color:#6B2C3E; color:#ffffff;">
+    <th style="padding:10px; border:1px solid #ccc;">
+      RIO DO SUL
+    </th>
+  </tr>
+  <tr style="background-color:#6B2C3E; color:#ffffff;">
+    <th style="padding:10px; border:1px solid #ccc;">
+      MUNICÍPIOS
+    </th>
+  </tr>
+
+  <tr><td style="padding:6px; border:1px solid #ccc;">AGROLÂNDIA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">AGRÔNOMICA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">ALFREDO WAGNER</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">ATALANTA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">AURORA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">BRAÇO DO TROMBUDO</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">CHAPADÃO DO LAGEADO</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">DONA EMMA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">IBIRAMA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">IMBUIA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">ITUPORANGA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">JOSÉ BOITEUX</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">LAURENTINO</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">LEOBERTO LEAL</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">LONTRAS</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">PETROLÂNDIA</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">PRESIDENTE GETÚLIO</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">PRESIDENTE NEREU</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">RIO DO OESTE</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">RIO DO SUL</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">TROMBUDO CENTRAL</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">VIDAL RAMOS</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">VITOR MEIRELES</td></tr>
+  <tr><td style="padding:6px; border:1px solid #ccc;">WITMARSUM</td></tr>
+</table>",
+      idList: "683616ef6cc0c8d06e9b1dcc"   
     },
     {
       name: "ATENDIMENTO - RE ATIVO",
