@@ -73,7 +73,7 @@ const data = {
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
-      name: "PEDIDO À VISTA - C.I",
+      name: "PEDIDO À VISTA",
       desc: "<strong>CP:</strong> [ 20573 - 24125 - 23341 ]<br><strong>FORMA DE PAGAMENTO:</strong> PIX ou CARTÃO DE CRÉDITO 3X<br><strong>IR:</strong> [ CÓD + NOME ]<br><strong>PEDIDO:</strong> XXX.XXX.XXX<br><strong>VALOR:</strong> R$<br><strong>ENTREGA OU RETIRADA:</strong>",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
