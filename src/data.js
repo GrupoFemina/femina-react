@@ -91,28 +91,7 @@ const data = {
       name: "PIX - RIO DO SUL",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
       idList: "683616ef6cc0c8d06e9b1dcc"  
-     },   
-     {
-      name: "CIDADES - RIO DO SUL",
-      desc: "<table style='width:100%; border-collapse: collapse; text-align:left; font-size:14px;'>
-    <tr style='background-color:#6B2C3E; color:#ffffff;'>
-    <th style='padding:10px; border:1px solid #ccc;'>
-      RIO DO SUL
-    </th>
-  </tr>
-  <tr style='background-color:#6B2C3E; color:#ffffff;'>
-    <th style='padding:10px; border:1px solid #ccc;'>
-      MUNICÍPIOS
-    </th>
-  </tr>
-  <tr><td style='padding:6px; border:1px solid #ccc;'>AGROLÂNDIA</td></tr>
-  <!-- ... (restante das cidades) ... -->
-  <tr><td style='padding:6px; border:1px solid #ccc;'>WITMARSUM</td></tr>
-</table><br><br>
-<!-- Adicione o botão aqui -->
-<a href='https://wa.me/5547999999999?text=Olá,%20preciso%20de%20ajuda%20com%20cidades%20atendidas' target='_blank' style='display:inline-block; padding:10px 20px; background-color:#6B2C3E; color:#ffffff; text-decoration:none; border-radius:5px; font-weight:bold;'>Falar no WhatsApp</a>",
-  idList: "683616ef6cc0c8d06e9b1dcc"
-},
+     },     
     {
       name: "ATENDIMENTO - RE ATIVO",
       desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>STATUS:</strong>\n<strong>PROMOTORA:</strong> @atendimento",
