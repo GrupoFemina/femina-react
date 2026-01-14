@@ -1,72 +1,58 @@
 import React, { useState } from 'react';
-import data from './data'; // Certifique-se que o data.js está na mesma pasta
+import data from './data';
 import './App.css';
 
-const App = () => {
-  const [setorAberto, setSetorAberto] = useState(null);
-  const [cardAtivo, setCardAtivo] = useState(null);
-
-  const toggleSetor = (id) => {
-    setSetorAberto(setorAberto === id ? null : id);
-  };
+function App() {
+  const [setorAtivo, setSetorAtivo] = useState(null);
+  const [modalCard, setModalCard] = useState(null);
 
   return (
-    <div className="container-geral">
-      <header className="header-atendimento">
+    <div className="app-container">
+      <header className="main-header">
         <h1>ATENDIMENTO PADRÃO</h1>
-        <p>Organização e excelência no atendimento da rede Femina</p>
+        <p>Rede Femina - Organização e Excelência</p>
       </header>
 
-      <div className="container-setores">
+      <main className="setores-grid">
         {Object.entries(data.lists).map(([id, nome]) => (
-          <div key={id} className="wrapper-setor">
-            {/* Botão Principal 3D */}
+          <div key={id} className="setor-item">
             <button 
-              className={`btn-setor-3d ${setorAberto === id ? 'ativo' : ''}`}
-              onClick={() => toggleSetor(id)}
+              className="btn-setor-3d"
+              onClick={() => setSetorAtivo(setorAtivo === id ? null : id)}
             >
               {nome}
             </button>
-
-            {/* Lista de Opções (Família) */}
-            {setorAberto === id && (
-              <div className="lista-opcoes-aberta">
-                {data.cards
-                  .filter(card => card.idList === id)
-                  .map((card, index) => (
-                    <div 
-                      key={index} 
-                      className="item-clicavel"
-                      onClick={() => setCardAtivo(card)}
-                    >
-                      {card.name}
-                    </div>
-                  ))}
+            
+            {setorAtivo === id && (
+              <div className="familia-opcoes">
+                {data.cards.filter(c => c.idList === id).map((card, i) => (
+                  <div key={i} className="sub-item" onClick={() => setModalCard(card)}>
+                    {card.name}
+                  </div>
+                ))}
               </div>
             )}
           </div>
         ))}
-      </div>
+      </main>
 
-      {/* O Novo Quadro de Texto (Modal) conforme o croqui */}
-      {cardAtivo && (
-        <>
-          <div className="modal-overlay" onClick={() => setCardAtivo(null)} />
-          <div className="quadro-exibicao">
+      {modalCard && (
+        <div className="modal-overlay" onClick={() => setModalCard(null)}>
+          <div className="quadro-texto" onClick={e => e.stopPropagation()}>
             <div className="quadro-header">
-              <h3>{cardAtivo.name}</h3>
-              <button className="btn-fechar-topo" onClick={() => setCardAtivo(null)}>&times;</button>
+              <h2>{modalCard.name}</h2>
+              <button className="close-btn" onClick={() => setModalCard(null)}>&times;</button>
             </div>
             <div 
-              className="quadro-conteudo"
-              dangerouslySetInnerHTML={{ __html: cardAtivo.desc.replace(/\n/g, '<br>') }}
+              className="quadro-corpo" 
+              dangerouslySetInnerHTML={{ __html: modalCard.desc.replace(/\n/g, '<br>') }} 
             />
-            <button className="btn-voltar" onClick={() => setCardAtivo(null)}>VOLTAR</button>
+            <button className="btn-voltar" onClick={() => setModalCard(null)}>VOLTAR</button>
           </div>
-        </>
+        </div>
       )}
     </div>
   );
-};
+}
 
 export default App;
