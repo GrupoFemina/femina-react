@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import data from './data';
-import './App.css';
+import './style.css';
 
 function App() {
   const [setorAtivo, setSetorAtivo] = useState(null);
