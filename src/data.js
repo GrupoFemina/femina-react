@@ -62,6 +62,7 @@ const data = {
       desc: "Foto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome.",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
+    {
       name: "TRANSFERIDO",
       desc: "Olá,\n\nInformamos que seu endereço foi atualizado com sucesso. Agora, o próximo passo é entrar em contato com a VD+ (Venda Direta) da sua localidade para realizar o desbloqueio e a atualização completa do seu cadastro como Revendedor(a) O Boticário.\n\nEnquanto isso, seu cadastro ficará bloqueado temporariamente até que essa etapa seja concluída.\n\nAgradecemos pela parceria até aqui e boas vendas. 💜\n\n<strong>Atenciosamente,</strong>",
       idList: "683616ef6cc0c8d06e9b1dcc"
@@ -87,17 +88,17 @@ const data = {
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
-      name: "PIX - RIO DO SUL",
+      name: "PIX RIO DO SUL",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
      {
-      name: "PIX - JOINVILLE",
+      name: "PIX JOINVILLE",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>FLORAL COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>BANCO:</strong> Bradesco (237)<br><strong>AGÊNCIA:</strong> 2657<br><strong>CONTA CORRENTE:</strong> 787-0<br>\n<strong>CHAVE PIX:</strong><br>05.135.693/0001-43",
       idList: "683616ef6cc0c8d06e9b1dcc"       
     },
        {
-      name: "PIX - RIO DO SUL",
+      name: "PIX RIO DO SUL",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
       idList: "683616ef6cc0c8d06e9b1dcc"  
      },
