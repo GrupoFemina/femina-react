@@ -98,6 +98,16 @@ const data = {
       idList: "683616ef6cc0c8d06e9b1dcc"  
     },
     {
+      name: "CIDADES JOINVILLE",
+      desc: "<strong>MUNICÍPIOS:</strong><br>JOINVILLE<br>BARRA DO SUL<br>ITAPOÁ<br>GARUVA",
+      idList: "683616ef6cc0c8d06e9b1dcc"
+    },
+    {
+      name: "CIDADES RIO DO SUL",
+      desc: "<strong>MUNICÍPIOS:</strong><br>AGROLÂNDIA<br>AGRÔNOMICA<br>ALFREDO WAGNER<br>ATALANTA<br>AURORA<br>BRAÇO DO TROMBUDO<br>CHAPADÃO DO LAGEADO<br>DONA EMMA<br>IBIRAMA<br>IMBUIA<br>ITUPORANGA<br>JOSÉ BOITEUX<br>LAURENTINO<br>LEOBERTO LEAL<br>LONTRAS<br>PETROLÂNDIA<br>PRESIDENTE GETÚLIO<br>PRESIDENTE NEREU<br>RIO DO OESTE<br>RIO DO SUL<br>TROMBUDO CENTRAL<br>VIDAL RAMOS<br>VITOR MEIRELES<br>WITMARSUM",
+      idList: "683616ef6cc0c8d06e9b1dcc"
+    },
+    {
       name: "ATENDIMENTO - RE ATIVO",
       desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>STATUS:</strong>\n<strong>PROMOTORA:</strong> @atendimento",
       idList: "683615767be3d4dd7675250f"
