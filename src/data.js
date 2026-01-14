@@ -91,7 +91,12 @@ const data = {
       name: "PIX - RIO DO SUL",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
       idList: "683616ef6cc0c8d06e9b1dcc"  
-     },     
+     }, 
+    {
+      name: "CIDADES FLORIPA",
+      desc: "<strong>MUNICÍPIOS:</strong><br>ANGELINA<br>ANITÁPOLIS<br>ANTÔNIO CARLOS<br>BIGUAÇU<br>FLORIANÓPOLIS<br>GOVERNADOR CELSO RAMOS<br>PALHOÇA<br>RANCHO QUEIMADO<br>SANTO AMARO DA IMPERATRIZ<br>SÃO JOSÉ<br>SÃO PEDRO DE ALCÂNTARA<br>SÃO BONIFÁCIO",
+      idList: "683616ef6cc0c8d06e9b1dcc"  
+    },
     {
       name: "ATENDIMENTO - RE ATIVO",
       desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.\n<strong>STATUS:</strong>\n<strong>PROMOTORA:</strong> @atendimento",
