@@ -1,31 +1,222 @@
-.app-container { font-family: sans-serif; background: #f0f0f0; min-height: 100vh; }
-.main-header { background: linear-gradient(135deg, #b02a6b, #851e4f); color: white; text-align: center; padding: 2rem; }
+/* =========================
+   VARIÁVEIS DE COR (IMAGEM)
+========================= */
+:root {
+  --verde-luz: #9cc7b0;
+  --vinho-profundo: #6b1f3a;
+  --magenta: #8b2c53;
+  --laranja-luz: #ff9a5c;
+  --vermelho-intenso: #b31217;
+  --sombra-profunda: #3a0d1f;
+  --cinza-fundo: #f0f0f0;
+}
 
-.setores-grid { max-width: 600px; margin: 2rem auto; padding: 0 1rem; }
+/* =========================
+   BASE DO SITE
+========================= */
+.app-container {
+  font-family: sans-serif;
+  background: var(--cinza-fundo);
+  min-height: 100vh;
+}
 
-/* BOTÃO 3D OUSADO */
+/* =========================
+   HEADER COM GRADIENTE
+========================= */
+.main-header {
+  background: linear-gradient(
+    120deg,
+    var(--verde-luz) 0%,
+    var(--vinho-profundo) 30%,
+    var(--laranja-luz) 65%,
+    var(--vermelho-intenso) 100%
+  );
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* faixa luminosa vertical */
+.main-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 18%;
+  width: 20%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.65),
+    rgba(255,255,255,0.05)
+  );
+  filter: blur(28px);
+}
+
+/* =========================
+   GRID DE SETORES
+========================= */
+.setores-grid {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* =========================
+   BOTÃO PRINCIPAL 3D
+========================= */
 .btn-setor-3d {
-  width: 100%; padding: 25px; margin-bottom: 1rem;
-  border: none; border-radius: 15px;
-  background: linear-gradient(145deg, #b02a6b, #8c1d52);
-  color: white; font-weight: 800; font-size: 1.1rem;
-  box-shadow: 0 8px 0 #5a1235, 0 12px 20px rgba(0,0,0,0.2);
-  cursor: pointer; position: relative; transition: 0.1s;
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 18px;
+
+  background: linear-gradient(
+    145deg,
+    var(--vinho-profundo),
+    var(--magenta),
+    var(--laranja-luz)
+  );
+
+  color: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+
+  box-shadow:
+    0 10px 0 var(--sombra-profunda),
+    0 16px 26px rgba(0,0,0,0.35);
+
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
+
+/* brilho superior do botão */
 .btn-setor-3d::after {
-  content: ""; position: absolute; top: 5px; left: 10%; width: 80%; height: 15%;
-  background: rgba(255,255,255,0.2); border-radius: 20px;
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 8%;
+  width: 84%;
+  height: 22%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  border-radius: 25px;
 }
-.btn-setor-3d:active { transform: translateY(4px); box-shadow: 0 4px 0 #5a1235; }
 
-/* FAMILIA DE OPÇÕES */
-.familia-opcoes { background: white; margin: -0.8rem 0.5rem 1.5rem; border-radius: 0 0 10px 10px; border: 1px solid #ddd; overflow: hidden; }
-.sub-item { padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; font-weight: 600; color: #444; }
-.sub-item:hover { background: #fff0f6; color: #b02a6b; }
+/* efeito pressionado */
+.btn-setor-3d:active {
+  transform: translateY(5px);
+  box-shadow: 0 5px 0 var(--sombra-profunda);
+}
 
-/* QUADRO DE TEXTO (MODAL) */
-.modal-overlay { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.8); display: flex; align-items: center; justify-content: center; z-index: 100; }
-.quadro-texto { background: white; width: 90%; max-width: 500px; padding: 25px; border-radius: 20px; position: relative; }
-.quadro-corpo { background: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 6px solid #b02a6b; line-height: 1.6; margin: 1.5rem 0; }
-.btn-voltar { width: 100%; padding: 15px; background: #333; color: white; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; }
-.close-btn { background: none; border: none; font-size: 2rem; cursor: pointer; color: #888; }
+/* =========================
+   BLOCO DE OPÇÕES (FAMÍLIA)
+========================= */
+.familia-opcoes {
+  background: white;
+  margin: -0.8rem 0.5rem 1.5rem;
+  border-radius: 0 0 12px 12px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+/* =========================
+   SUB-ITENS
+========================= */
+.sub-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-weight: 600;
+  color: #444;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.sub-item:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(156,199,176,0.25),
+    rgba(255,154,92,0.25)
+  );
+  color: var(--vinho-profundo);
+}
+
+/* =========================
+   MODAL / OVERLAY
+========================= */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+/* =========================
+   QUADRO DE TEXTO
+========================= */
+.quadro-texto {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 22px;
+  position: relative;
+}
+
+/* corpo interno com destaque */
+.quadro-corpo {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 6px solid;
+  border-image: linear-gradient(
+    to bottom,
+    var(--verde-luz),
+    var(--laranja-luz),
+    var(--vermelho-intenso)
+  ) 1;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+/* =========================
+   BOTÃO VOLTAR
+========================= */
+.btn-voltar {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(
+    135deg,
+    var(--vinho-profundo),
+    var(--vermelho-intenso)
+  );
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* =========================
+   BOTÃO FECHAR
+========================= */
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #888;
+}
