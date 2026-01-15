@@ -5,14 +5,12 @@
   min-height: 100vh; 
 }
 
-/* CABEÇALHO COM O GRADIENTE EXATO DA IMAGEM */
+/* CABEÇALHO COM GRADIENTE LARANJA/VINHO */
 .main-header { 
-  /* Reproduz a transição: Verde -> Vinho -> Laranja -> Vermelho */
-  background: linear-gradient(to right, #84a59d 0%, #6a1b4d 35%, #ff8a65 65%, #ff5e00 100%); 
+  background: linear-gradient(135deg, #FF5E00, #6A1B4D); 
   color: white; 
   text-align: center; 
-  padding: 2.5rem; 
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 2rem; 
 }
 
 .setores-grid { 
@@ -21,26 +19,23 @@
   padding: 0 1rem; 
 }
 
-/* BOTÃO 3D COM A COMPOSIÇÃO DA IMAGEM */
+/* BOTÃO 3D OUSADO - NOVO TEMA */
 .btn-setor-3d {
   width: 100%; 
   padding: 25px; 
   margin-bottom: 1rem;
   border: none; 
   border-radius: 15px;
-  /* Gradiente que imita a parte mais clara/vibrante da imagem */
-  background: linear-gradient(145deg, #ff8a65, #ff5e00);
+  background: linear-gradient(145deg, #FF5E00, #E65500); /* Laranja vibrante */
   color: white; 
   font-weight: 800; 
   font-size: 1.1rem;
-  /* Sombra profunda usando o tom Vinho da imagem */
-  box-shadow: 0 8px 0 #4a1035, 0 12px 20px rgba(0,0,0,0.2); 
+  box-shadow: 0 8px 0 #4A1035, 0 12px 20px rgba(0,0,0,0.2); /* Sombra Vinho escuro */
   cursor: pointer; 
   position: relative; 
   transition: 0.1s;
 }
 
-/* O brilho no topo do botão imita o reflexo branco/pêssego da imagem */
 .btn-setor-3d::after {
   content: ""; 
   position: absolute; 
@@ -48,16 +43,16 @@
   left: 10%; 
   width: 80%; 
   height: 15%;
-  background: rgba(255, 255, 255, 0.4); 
+  background: rgba(255,255,255,0.2); 
   border-radius: 20px;
 }
 
 .btn-setor-3d:active { 
   transform: translateY(4px); 
-  box-shadow: 0 4px 0 #4a1035; 
+  box-shadow: 0 4px 0 #4A1035; 
 }
 
-/* FAMILIA DE OPÇÕES */
+/* FAMILIA DE OPÇÕES (SUB-ITENS) */
 .familia-opcoes { 
   background: white; 
   margin: -0.8rem 0.5rem 1.5rem; 
@@ -74,13 +69,25 @@
   color: #444; 
 }
 
-/* Hover usando o tom de pêssego central da imagem */
 .sub-item:hover { 
-  background: #fff0eb; 
-  color: #ff5e00; 
+  background: #FFF3E0; /* Fundo pêssego suave */
+  color: #FF5E00;      /* Texto laranja */
 }
 
 /* QUADRO DE TEXTO (MODAL) */
+.modal-overlay { 
+  position: fixed; 
+  top:0; 
+  left:0; 
+  width:100%; 
+  height:100%; 
+  background: rgba(0,0,0,0.8); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  z-index: 100; 
+}
+
 .quadro-texto { 
   background: white; 
   width: 90%; 
@@ -94,8 +101,7 @@
   background: #f9f9f9; 
   padding: 20px; 
   border-radius: 10px; 
-  /* Borda de destaque com o Vinho profundo da esquerda da imagem */
-  border-left: 6px solid #6a1b4d; 
+  border-left: 6px solid #6A1B4D; /* Borda de destaque em Vinho */
   line-height: 1.6; 
   margin: 1.5rem 0; 
 }
@@ -109,4 +115,12 @@
   border-radius: 10px; 
   font-weight: bold; 
   cursor: pointer; 
+}
+
+.close-btn { 
+  background: none; 
+  border: none; 
+  font-size: 2rem; 
+  cursor: pointer; 
+  color: #888; 
 }
