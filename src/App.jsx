@@ -38,16 +38,15 @@ function App() {
         ))}
       </main>
 
-      {/* RODAPÉ DA TELA INICIAL - CENTRALIZADO NO FINAL */}
+{/* RODAPÉ DA TELA INICIAL - CENTRALIZADO NO FINAL */}
       <footer className="rodape-tela-inicial">
         <img 
-          src="/RO - ADM FEMINA.jpg" 
+          src="/logo-assinatura.png" 
           alt="Logo Grupo Femina" 
           className="img-assinatura-home" 
         />
         <p className="texto-assinatura-home">RÔ - ADM/VDF</p>
       </footer>
-
       {/* MODAL (CARDS) */}
       {modalCard && (
         <div className="modal-overlay" onClick={() => setModalCard(null)}>
