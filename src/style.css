@@ -174,9 +174,11 @@
   padding: 25px;
   border-radius: 22px;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-/* corpo interno com destaque */
+/* corpo interno com destaque e ROLAGEM */
 .quadro-corpo {
   background: #f9f9f9;
   padding: 20px;
@@ -190,6 +192,28 @@
   ) 1;
   line-height: 1.6;
   margin: 1.5rem 0;
+
+  /* Estilização da Rolagem */
+  max-height: 320px;       /* Altura limite para caber em telas de celular */
+  overflow-y: auto;        /* Ativa rolagem vertical */
+  overflow-x: hidden;      /* Garante que não role para os lados */
+  padding-right: 15px;     /* Espaço para o texto não encostar na barra */
+}
+
+/* Estilo personalizado para a barra de rolagem (Chrome/Safari) */
+.quadro-corpo::-webkit-scrollbar {
+  width: 6px;
+}
+.quadro-corpo::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.quadro-corpo::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+.quadro-corpo::-webkit-scrollbar-thumb:hover {
+  background: var(--magenta);
 }
 
 /* =========================
