@@ -8,11 +8,13 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* CABEÇALHO */}
       <header className="main-header">
         <h1>ATENDIMENTO PADRÃO</h1>
         <p>Rede Femina - Organização e Excelência</p>
       </header>
 
+      {/* CONTEÚDO PRINCIPAL (BOTÕES) */}
       <main className="setores-grid">
         {Object.entries(data.lists).map(([id, nome]) => (
           <div key={id} className="setor-item">
@@ -36,13 +38,17 @@ function App() {
         ))}
       </main>
 
-      {/* RODAPÉ DA TELA INICIAL (FORA DOS CARDS) */}
+      {/* RODAPÉ DA TELA INICIAL - CENTRALIZADO NO FINAL */}
       <footer className="rodape-tela-inicial">
-        <img src="/RO - ADM FEMINA.jpg" alt="Logo Grupo Femina" className="img-assinatura-home" />
+        <img 
+          src="/RO - ADM FEMINA.jpg" 
+          alt="Logo Grupo Femina" 
+          className="img-assinatura-home" 
+        />
         <p className="texto-assinatura-home">RÔ - ADM/VDF</p>
       </footer>
 
-      {/* MODAL (CARDS) - SEM ASSINATURA INTERNA */}
+      {/* MODAL (CARDS) */}
       {modalCard && (
         <div className="modal-overlay" onClick={() => setModalCard(null)}>
           <div className="quadro-texto" onClick={e => e.stopPropagation()}>
