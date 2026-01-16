@@ -14,37 +14,37 @@ const data = {
     },
     {
       name: "TRANSFERÊNCIA DE CADASTRO - ACOLHIMENTO",
-      desc: "<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x\n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
+      desc: "<strong>TRANSFERÊNCIA DE CADASTRO - ACOLHIMENTO</strong>\n\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x\n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
       idList: "683615767be3d4dd7675250e"
     },
     {
       name: "REATIVAÇÃO - CESSADO",
-      desc: "<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
+      desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
       idList: "683615767be3d4dd7675250e"
     },
     {
       name: "LIBERAR CADASTRO - AUTOATENDIMENTO",
-      desc: "<strong>Liberação de cadastro</strong> para o RE realizar compras em loja ou no APP.<br><br><strong>STATUS:</strong> [NOVO - CESSADO - TRANSFERÊNCIA]<br><strong>PAGAMENTO:</strong> Boleto 3x.",
+      desc: "<strong>LIBERAR CADASTRO - AUTOATENDIMENTO</strong>\n\n<strong>Liberação de cadastro</strong> para o RE realizar compras em loja ou no APP.<br><br><strong>STATUS:</strong> [NOVO - CESSADO - TRANSFERÊNCIA]<br><strong>PAGAMENTO:</strong> Boleto 3x.",
       idList: "683615767be3d4dd7675250e"
     },
     {
       name: "AUTO REATIVAÇÃO",
-      desc: "<strong>RE realizou pedido pelo APP ou em Loja</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>Ranking:</strong> Adicionar ao ciclo XX",
+      desc: "<strong>AUTO REATIVAÇÃO</strong>\n\n<strong>RE realizou pedido pelo APP ou em Loja</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>Ranking:</strong> Adicionar ao ciclo XX",
       idList: "683615767be3d4dd7675250e"
     },
     {
       name: "PEDIDO COM RETIRADA PRORROGADA",
-      desc: "<strong>PEDIDO COM RETIRADA PRORROGADA</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>CÓD. REV.:</strong> CÓD + NOME RE\n<strong>DATA RETIRAR:</strong> DATA DO PEDIDO + 2 DIAS ÚTEIS",
+      desc: "<strong>PEDIDO COM RETIRADA PRORROGADA</strong>\n\n<strong>PEDIDO COM RETIRADA PRORROGADA</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>CÓD. REV.:</strong> CÓD + NOME RE\n<strong>DATA RETIRAR:</strong> DATA DO PEDIDO + 2 DIAS ÚTEIS",
       idList: "estoque_coluna_001"
     },
     {
       name: "OCORRÊNCIA DE PRODUTO",
-      desc: "<strong>CÓD. PRODUTO1:</strong> CÓD + NOME DO PRODUTO\n<strong>CÓD. PRODUTO2:</strong>\n<strong>CÓD. PRODUTO3:</strong>",
+      desc: "<strong>OCORRÊNCIA DE PRODUTO</strong>\n\n<strong>CÓD. PRODUTO1:</strong> CÓD + NOME DO PRODUTO\n<strong>CÓD. PRODUTO2:</strong>\n<strong>CÓD. PRODUTO3:</strong>",
       idList: "estoque_coluna_001"
     },
     {
       name: "CANCELAMENTO DE PEDIDO",
-      desc: "<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong>\n\n@‌marcar responsavel estoque @‌marcar gerente estoque",
+      desc: "<strong>CANCELAMENTO DE PEDIDO</strong>\n\n<strong>CADASTRO NOVO</strong>\n\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong>\n\n@‌marcar responsavel estoque @‌marcar gerente estoque",
       idList: "estoque_coluna_001"
     },
     {
@@ -53,8 +53,8 @@ const data = {
       idList: "estoque_coluna_001"
     },
     {
-      name: "CANCELAMENTO PRAZO EXCEDIDO 48 HRS",
-      desc: "Pedido cancelado por tempo limite excedido.",
+      name: "CANCELAMENTO PRAZO EXCEDIDO",
+      desc: "Pedido cancelado por tempo limite excedido 48 horas.",
       idList: "estoque_coluna_001"
     },
     {
@@ -104,12 +104,12 @@ const data = {
      },
      {
       name: "CADASTRO REVENDEDOR - IR (INTENÇÃO DE REVENDA)",
-      desc: "<strong>NOME COMPLETO:</strong>\n<strong>CPF:</strong>\n<strong>BAIRRO:</strong>\n<strong>TELEFONE:</strong>",
+      desc: "<strong>CADASTRO REVENDEDOR - IR (INTENÇÃO DE REVENDA)</strong>\n\n<strong>NOME COMPLETO:</strong>\n<strong>CPF:</strong>\n<strong>BAIRRO:</strong>\n<strong>TELEFONE:</strong>",
       idList: "683615767be3d4dd7675250f"
     }, 
     {
       name: "ATENDIMENTO - REATIVAÇÃO",
-      desc: "<strong>CÓD RE + NOME:</strong>\n<strong>CPF:</strong>\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
+      desc: "<strong>ATENDIMENTO - REATIVAÇÃO</strong>\n\n<strong>CÓD RE + NOME:</strong>\n<strong>CPF:</strong>\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
       idList: "683615767be3d4dd7675250f"
     },  
     {
@@ -119,7 +119,7 @@ const data = {
     }, 
     {
       name: "ATENDIMENTO - RE ATIVO",
-      desc: "<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong>",
+      desc: "<strong>ATENDIMENTO - RE ATIVO</strong>\n\n<strong>CADASTRO NOVO</strong>\n\n<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong>",
       idList: "683615767be3d4dd7675250f"
     }, 
     {
