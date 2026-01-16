@@ -38,7 +38,7 @@ function App() {
         ))}
       </main>
 
-{/* RODAPÉ DA TELA INICIAL - CENTRALIZADO NO FINAL */}
+      {/* RODAPÉ DA TELA INICIAL - CENTRALIZADO NO FINAL */}
       <footer className="rodape-tela-inicial">
         <img 
           src="/logo-assinatura.png" 
@@ -47,6 +47,7 @@ function App() {
         />
         <p className="texto-assinatura-home">RÔ - ADM/VDF</p>
       </footer>
+
       {/* MODAL (CARDS) */}
       {modalCard && (
         <div className="modal-overlay" onClick={() => setModalCard(null)}>
