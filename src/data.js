@@ -34,7 +34,7 @@ const data = {
     },
     {
       name: "PEDIDO COM RETIRADA PRORROGADA",
-      desc: "<strong>PEDIDO COM RETIRADA PRORROGADA</strong>\n\n<strong>PEDIDO COM RETIRADA PRORROGADA</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>CÓD. REV.:</strong> CÓD + NOME RE\n<strong>DATA RETIRAR:</strong> DATA DO PEDIDO + 2 DIAS ÚTEIS",
+      desc: "<strong>PEDIDO COM RETIRADA PRORROGADA</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>CÓD. REV.:</strong> CÓD + NOME RE\n<strong>DATA RETIRAR:</strong> DATA DO PEDIDO + 2 DIAS ÚTEIS",
       idList: "estoque_coluna_001"
     },
     {
