@@ -43,11 +43,20 @@ function App() {
               <h2>{modalCard.name}</h2>
               <button className="close-btn" onClick={() => setModalCard(null)}>&times;</button>
             </div>
+            
             <div 
               className="quadro-corpo" 
               dangerouslySetInnerHTML={{ __html: modalCard.desc.replace(/\n/g, '<br>') }} 
             />
+
             <button className="btn-voltar" onClick={() => setModalCard(null)}>VOLTAR</button>
+
+            {/* --- NOVO RODAPÉ COM LOGO E ASSINATURA --- */}
+            <div className="rodape-assinatura-container">
+              {/* O nome da imagem abaixo deve ser exatamente o que você subiu no GitHub */}
+              <img src="/RO - ADM FEMINA.jpg" alt="Logo Grupo Femina" className="img-assinatura" />
+              <p className="texto-assinatura">RÔ - ADM/VDF</p>
+            </div>
           </div>
         </div>
       )}
