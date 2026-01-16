@@ -176,6 +176,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* corpo interno com destaque e ROLAGEM */
@@ -192,15 +193,17 @@
   ) 1;
   line-height: 1.6;
   margin: 1.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
 
   /* Estilização da Rolagem */
-  max-height: 320px;       /* Altura limite para caber em telas de celular */
-  overflow-y: auto;        /* Ativa rolagem vertical */
-  overflow-x: hidden;      /* Garante que não role para os lados */
-  padding-right: 15px;     /* Espaço para o texto não encostar na barra */
+  max-height: 320px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 15px;
 }
 
-/* Estilo personalizado para a barra de rolagem (Chrome/Safari) */
+/* Estilo personalizado para a barra de rolagem */
 .quadro-corpo::-webkit-scrollbar {
   width: 6px;
 }
@@ -243,10 +246,34 @@
   font-size: 2rem;
   cursor: pointer;
   color: #888; 
+  position: absolute; 
+  top: 10px;          
+  right: 15px;         
+  line-height: 1;     
+}
 
-  /* Alterações para mudar a posição */
-  position: absolute; /* Fixa o botão em relação ao quadro-texto */
-  top: 10px;          /* Distância do topo */
-  right: 15px;         /* Move para a direita conforme o desenho */
-  line-height: 1;     /* Remove espaços extras em volta do ícone */
+/* =========================
+   RODAPÉ E ASSINATURA
+========================= */
+.rodape-assinatura-container {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.img-assinatura {
+  height: 45px; /* Ajuste o tamanho da logo conforme necessário */
+  width: auto;
+  display: block;
+}
+
+.texto-assinatura {
+  font-size: 0.75rem;
+  color: #555;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 0.5px;
 }
