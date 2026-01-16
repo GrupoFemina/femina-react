@@ -59,7 +59,7 @@ const data = {
     },
     {
     name: "TRANSFERÊNCIA DE VD - DOCUMENTAÇÃO NECESSÁRIA",
-    desc: "Foto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome, (caso não tenha, enviar foto do documento do titular junto com o comprovante).\n\nCarta a próprio punho informando que está residindo no endereço atual.\n\nENVIAR A DOCUMENTAÇÃO PARA O E-MAIL:\n\nSe você for de Joinville: admjoinville@grupofemina.com.br\n\nSe for de Florianópolis: admflorianopolis@grupofemina.com.br\n\nOu se for de Rio do Sul: admriodosul@grupofemina.com.br",
+    desc: "<strong>TRANSFERÊNCIA DE VD - DOCUMENTAÇÃO NECESSÁRIA</strong>\n\nFoto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome, (caso não tenha, enviar foto do documento do titular junto com o comprovante).\n\nCarta a próprio punho informando que está residindo no endereço atual.\n\nENVIAR A DOCUMENTAÇÃO PARA O E-MAIL:\n\nSe você for de Joinville: admjoinville@grupofemina.com.br\n\nSe for de Florianópolis: admflorianopolis@grupofemina.com.br\n\nOu se for de Rio do Sul: admriodosul@grupofemina.com.br",
     idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
@@ -119,7 +119,7 @@ const data = {
     }, 
     {
       name: "ATENDIMENTO - RE ATIVO",
-      desc: "<strong>ATENDIMENTO - RE ATIVO</strong>\n\n<strong>CADASTRO NOVO</strong>\n\n<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong>",
+      desc: "<strong>ATENDIMENTO - RE ATIVO</strong>\n\n<strong>CÓD RE/NOME:</strong>\n<strong>CONTATO:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong>",
       idList: "683615767be3d4dd7675250f"
     }, 
     {
