@@ -36,6 +36,13 @@ function App() {
         ))}
       </main>
 
+      {/* RODAPÉ DA TELA INICIAL (FORA DOS CARDS) */}
+      <footer className="rodape-tela-inicial">
+        <img src="/RO - ADM FEMINA.jpg" alt="Logo Grupo Femina" className="img-assinatura-home" />
+        <p className="texto-assinatura-home">RÔ - ADM/VDF</p>
+      </footer>
+
+      {/* MODAL (CARDS) - SEM ASSINATURA INTERNA */}
       {modalCard && (
         <div className="modal-overlay" onClick={() => setModalCard(null)}>
           <div className="quadro-texto" onClick={e => e.stopPropagation()}>
@@ -50,13 +57,6 @@ function App() {
             />
 
             <button className="btn-voltar" onClick={() => setModalCard(null)}>VOLTAR</button>
-
-            {/* --- NOVO RODAPÉ COM LOGO E ASSINATURA --- */}
-            <div className="rodape-assinatura-container">
-              {/* O nome da imagem abaixo deve ser exatamente o que você subiu no GitHub */}
-              <img src="/RO - ADM FEMINA.jpg" alt="Logo Grupo Femina" className="img-assinatura" />
-              <p className="texto-assinatura">RÔ - ADM/VDF</p>
-            </div>
           </div>
         </div>
       )}
