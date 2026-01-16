@@ -58,9 +58,9 @@ const data = {
       idList: "estoque_coluna_001"
     },
     {
-      name: "TRANSFERÊNCIA DE VD - DOCUMENTAÇÃO NECESSÁRIA",
-      desc: "Foto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome.",
-      idList: "683616ef6cc0c8d06e9b1dcc"
+    name: "TRANSFERÊNCIA DE VD - DOCUMENTAÇÃO NECESSÁRIA",
+    desc: "Foto do documento (RG/CNH) frente e verso,\n\nSelfie com o documento junto.\n\nComprovante de endereço atualizado e em seu nome, (caso não tenha, enviar foto do documento do titular junto com o comprovante).\n\nCarta a próprio punho informando que está residindo no endereço atual.\n\nENVIAR A DOCUMENTAÇÃO PARA O E-MAIL:\n\nSe você for de Joinville: admjoinville@grupofemina.com.br\n\nSe for de Florianópolis: admflorianopolis@grupofemina.com.br\n\nOu se for de Rio do Sul: admriodosul@grupofemina.com.br",
+    idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
       name: "TRANSFERIDO",
