@@ -218,5 +218,11 @@
   border: none;
   font-size: 2rem;
   cursor: pointer;
-  color: #888;
+  color: #888; 
+
+  /* Alterações para mudar a posição */
+  position: absolute; /* Fixa o botão em relação ao quadro-texto */
+  top: 10px;          /* Distância do topo */
+  right: 15px;         /* Move para a direita conforme o desenho */
+  line-height: 1;     /* Remove espaços extras em volta do ícone */
 }
