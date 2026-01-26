@@ -69,7 +69,7 @@ const data = {
     },
     {
       name: "CARTA DE AUTODECLARAÇÃO DE ENDEREÇO",
-      desc: "<em>\"Eu, [Seu Nome Completo], portador do RG nº [Seu RG] e CPF nº [Seu CPF], declaro, que resido atualmente no endereço residencial:</em><br><br>Rua: [Nome da Rua]<br>Número: [Número da Casa/Apartamento]<br>Bairro: [Nome do Bairro]<br>Cidade: [Nome da Cidade]<br>CEP: [CEP]<br><br>Declaro, prestadas são verdadeiras.<br><br>Assinatura: _______________________________",
+      desc: "<em>\"Eu, [Seu Nome Completo], portador do RG nº [Seu RG] e CPF nº [Seu CPF], declaro, que resido atualmente no endereço residencial:</em><br><br>Rua: [Nome da Rua]<br>Número: [Número da Casa/Apartamento]<br>Bairro: [Nome do Bairro]<br>Cidade: [Nome da Cidade]<br>CEP: [CEP]<br><br>Declaro, que as informações prestadas são verdadeiras.<br><br>Assinatura: _______________________________",
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
     {
