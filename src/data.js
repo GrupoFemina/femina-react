@@ -93,12 +93,12 @@ const data = {
       idList: "683616ef6cc0c8d06e9b1dcc"
     },
      {
-      name: "PIX JOINVILLE",
+      name: "PIX - JOINVILLE",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>FLORAL COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>BANCO:</strong> Bradesco (237)<br><strong>AGÊNCIA:</strong> 2657<br><strong>CONTA CORRENTE:</strong> 787-0<br>\n<strong>CHAVE PIX:</strong><br>05.135.693/0001-43",
       idList: "683616ef6cc0c8d06e9b1dcc"       
     },
     {
-      name: "PIX RIO DO SUL",
+      name: "PIX - RIO DO SUL",
       desc: "<strong>RAZÃO SOCIAL:</strong><br>ESSENZA COMÉRCIO DE COSMÉTICOS LTDA<br>\n<strong>CHAVE PIX:</strong><br>60.193.797/0001-12",
       idList: "683616ef6cc0c8d06e9b1dcc"  
      },
