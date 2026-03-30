@@ -17,11 +17,11 @@ const data = {
       desc: "<strong>TRANSFERÊNCIA DE CADASTRO - ACOLHIMENTO</strong>\n\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x\n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
       idList: "683615767be3d4dd7675250e"
     },
-    {
-      name: "REATIVAÇÃO - CESSADO",
-      desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
-      idList: "683615767be3d4dd7675250e"
-    },
+{
+  name: "REATIVAÇÃO - CESSADO",
+  desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
+  idList: "683615767be3d4dd7675250e"
+},
     {
       name: "LIBERAR CADASTRO - AUTOATENDIMENTO",
       desc: "<strong>LIBERAR CADASTRO - AUTOATENDIMENTO</strong>\n\n<strong>Liberação de cadastro</strong> para o RE realizar compras em loja ou no APP.<br><br><strong>STATUS:</strong> [NOVO - CESSADO - TRANSFERÊNCIA]<br><strong>PAGAMENTO:</strong> Boleto 3x.",
@@ -109,7 +109,7 @@ const data = {
     }, 
    {
      name: "ATENDIMENTO - REATIVAÇÃO",
-     desc: "<strong>ATENDIMENTO - REATIVAÇÃO</strong>\n\n<strong>CÓD RE + NOME:</strong>\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
+     desc: "<strong>ATENDIMENTO - REATIVAÇÃO</strong>\n\n<strong>CÓD RE + NOME:</strong>\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
      idList: "683615767be3d4dd7675250f"
     },
     {
