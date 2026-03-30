@@ -7,11 +7,11 @@ const data = {
     "683615767be3d4dd7675250d": "ATENDIMENTO - LOJA"
   },
   cards: [
-    {
-      name: "CADASTRO NOVO",
-      desc: "<strong>CADASTRO NOVO</strong>\n\n<strong>ATIVAÇÃO:</strong> Via pedido.\n<strong>PAGAMENTO:</strong> Boleto 3x.\n<strong>ENTREGA:</strong> endereço do RE.",
-      idList: "683615767be3d4dd7675250e"
-    },
+{
+  name: "CADASTRO NOVO",
+  desc: "<strong>CADASTRO NOVO</strong>\n\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Via pedido.\n<strong>PAGAMENTO:</strong> Boleto 3x.\n<strong>ENTREGA:</strong> endereço do RE.",
+  idList: "683615767be3d4dd7675250e"
+},
     {
       name: "TRANSFERÊNCIA DE CADASTRO - ACOLHIMENTO",
       desc: "<strong>TRANSFERÊNCIA DE CADASTRO - ACOLHIMENTO</strong>\n\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x\n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
