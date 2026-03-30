@@ -19,7 +19,7 @@ const data = {
     },
 {
   name: "REATIVAÇÃO - CESSADO",
-  desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>NOME+COD RE:</strong>xxx\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
+  desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>NOME+COD RE:</strong>xxx\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Escrever o nome do cupom vigente no ciclo",
   idList: "683615767be3d4dd7675250e"
 },
     {
