@@ -107,11 +107,11 @@ const data = {
       desc: "<strong>CADASTRO REVENDEDOR - IR (INTENÇÃO DE REVENDA)</strong>\n\n<strong>NOME COMPLETO:</strong>\n<strong>CPF:</strong>\n<strong>BAIRRO:</strong>\n<strong>TELEFONE:</strong>",
       idList: "683615767be3d4dd7675250f"
     }, 
-    {
-      name: "ATENDIMENTO - REATIVAÇÃO",
-      desc: "<strong>ATENDIMENTO - REATIVAÇÃO</strong>\n\n<strong>CÓD RE + NOME:</strong>\n<strong>CPF:</strong>\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
-      idList: "683615767be3d4dd7675250f"
-    },  
+   {
+     name: "ATENDIMENTO - REATIVAÇÃO",
+     desc: "<strong>ATENDIMENTO - REATIVAÇÃO</strong>\n\n<strong>CÓD RE + NOME:</strong>\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>FONE:</strong>\n<strong>DESCRIÇÃO DO ATENDIMENTO:</strong> Descrever a necessidade do RE.",
+     idList: "683615767be3d4dd7675250f"
+    },
     {
       name: "CAR - ATENDIMENTO",
       desc: "<strong>Central de Atendimento ao Revendedor</strong><br>Atendimento de segunda a sexta, das 8h às 20h.<br>Sábado, das 9h às 16h.<br><br><strong>Whatsapp:</strong> (41) 8735-7095<br><strong>Telefone:</strong> 0800-729-9050<br><em>Ligação gratuita de qualquer lugar do país tanto de telefone fixo quanto de celular.</em>",
