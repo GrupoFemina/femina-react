@@ -9,7 +9,7 @@ const data = {
   cards: [
 {
   name: "CADASTRO NOVO",
-  desc: "<strong>CADASTRO NOVO</strong>\n\n<strong>NOME+COD RE::</strong>xxx\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Via pedido.\n<strong>PAGAMENTO:</strong> Boleto 3x.\n<strong>ENTREGA:</strong> endereço do RE.",
+  desc: "<strong>CADASTRO NOVO</strong>\n\n<strong>NOME+COD RE:</strong>xxx\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Via pedido.\n<strong>PAGAMENTO:</strong> Boleto 3x.\n<strong>ENTREGA:</strong> endereço do RE.",
   idList: "683615767be3d4dd7675250e"
 },
     {
@@ -19,7 +19,7 @@ const data = {
     },
 {
   name: "REATIVAÇÃO - CESSADO",
-  desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
+  desc: "<strong>REATIVAÇÃO - CESSADO</strong>\n\n<strong>NOME+COD RE:</strong>xxx\n<strong>CPF:</strong> xxx.xxx.xxx-xx\n<strong>ATIVAÇÃO:</strong> Pedido em Anexo\n<strong>FORMA DE PAGAMENTO:</strong> Boleto 3x \n<strong>ENTREGA:</strong> No endereço do RE\n<strong>CUPOM:</strong> Inserir cupom vigente",
   idList: "683615767be3d4dd7675250e"
 },
     {
