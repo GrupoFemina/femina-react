@@ -28,7 +28,7 @@ const data = {
       idList: "683615767be3d4dd7675250e"
     },
     {
-      name: "AUTO REATIVAÇÃO",
+      name: "AUTO - REATIVAÇÃO",
       desc: "<strong>AUTO REATIVAÇÃO</strong>\n\n<strong>RE realizou pedido pelo APP ou em Loja</strong>\n\n<strong>Nº PEDIDO:</strong> XXX.XXX.XXX\n<strong>Ranking:</strong> Adicionar ao ciclo XX",
       idList: "683615767be3d4dd7675250e"
     },
