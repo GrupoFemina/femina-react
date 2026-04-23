@@ -104,7 +104,7 @@ const data = {
 },
      {
       name: "CADASTRO REVENDEDOR - (INFORMAR O STATUS DO GERA)",
-      "<strong>CADASTRO REVENDEDOR - IR (INTENÇÃO DE REVENDA)</strong>\n\n<strong>NOME COMPLETO:</strong>\n<strong>CPF:</strong>\n<strong>TELEFONE:</strong>",
+      desc: "<strong>CADASTRO REVENDEDOR - IR (INTENÇÃO DE REVENDA)</strong>\n\n<strong>NOME COMPLETO:</strong>\n<strong>CPF:</strong>\n<strong>BAIRRO:</strong>\n<strong>TELEFONE:</strong>",
       idList: "683615767be3d4dd7675250f"
     }, 
    {
