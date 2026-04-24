@@ -103,7 +103,7 @@ const data = {
   idList: "683616ef6cc0c8d06e9b1dcc"
 },
      {
-      name: "CADASTRO REVENDEDOR - (INFORMAR O STATUS DO GERA)",
+      name: "CADASTRO REVENDEDOR - (INFORMAR O STATUS DO VD+)",
       desc: "<strong>CADASTRO REVENDEDOR - (INFORMAR O STATUS DO GERA)</strong>\n\n<strong>NOME COMPLETO:</strong>\n<strong>CPF:</strong>\n<strong>TELEFONE:</strong>",
       idList: "683615767be3d4dd7675250f"
     }, 
