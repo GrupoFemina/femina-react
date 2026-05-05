@@ -44,8 +44,8 @@ const data = {
     },
     {
       name: "CANCELAMENTO DE PEDIDO",
-      desc: "<strong>CANCELAMENTO DE PEDIDO</strong>\n\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong>\n<strong>APR. GERENTE:<strong> @marcar seu gerente\n<strong>RESP. ESTOQUE:<strong> @marcar contato do estoque\n",
-      idList: "estoque_coluna_001"
+     desc: "<strong>CANCELAMENTO DE PEDIDO</strong>\n\n<strong>CÓD/NOME:</strong>\n<strong>N° DO PEDIDO:</strong>\n<strong>MOTIVO:</strong>\n<strong>APR. GERENTE:</strong> @marcar seu gerente\n<strong>RESP. ESTOQUE:</strong> @marcar contato do estoque\n",
+     idList: "estoque_coluna_001"
     },
     {
       name: "CARTA DE CORREÇÃO - ENDEREÇO",
